@@ -9,8 +9,7 @@ package com.lin.young.etl
  */
 object Log2Parquet {
   def main(args: Array[String]): Unit = {
-    val s:String = ""
-    val i = s.toInt
-    println(i)
+
   }
 }
+
