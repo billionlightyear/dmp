@@ -7,7 +7,8 @@ package com.lin.young.bean
  * Date: 2020-09-23
  * Time: 16:45
  */
-case class logs(sessionid: String,
+case class logs(
+                 sessionid: String,
                  advertisersid: Int,
                  adorderid: Int,
                  adcreativeid: Int,
@@ -29,7 +30,7 @@ case class logs(sessionid: String,
                  density: String,
                  pw: Int,
                  ph: Int,
-                 long: String,
+                 longs: String,
                  lat: String,
                  provincename: String,
                  cityname: String,
